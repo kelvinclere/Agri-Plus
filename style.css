@@ -97,12 +97,13 @@ html{
 
 }
 h6 {
-    width: 500px;
+    width: 700px;
     font-size: larger;
     color:black;
     display: flex;
     justify-content: space-between;
     padding: 50px;
+    padding-left: 20px;
     margin: 5px;
     margin-inline-start: 500px;
     margin-top: -30px;
@@ -123,10 +124,9 @@ h6 {
     height: 300px;
   }
 
-  article{
-    margin-inline-start: 150px;
-    font-size: 20px;
 
+  section{
+    padding-top: 50px;
   }
   .products{
     text-align: center;
@@ -143,7 +143,7 @@ h6 {
     color: black;
     font-size: 40px;
     font-weight: bolder;
-    margin-top: 180px;
+    margin-top: 120px;
     border-bottom: 3px solid #ED661F;
     width: 300px;
     text-align: center;
@@ -151,7 +151,7 @@ h6 {
   h2{
     font-weight: bolder;
     font-size: 40px;
-    margin-top: 60px;
+    padding-top: -150px;
 
   }
 
@@ -181,9 +181,17 @@ img{
 
 h3, p, h4{
 
-    padding-top: -5px;
+    padding-top: -10px;
     margin-inline-start: 80px;
   
+}
+
+#exist{
+  padding-top: -40px;
+}
+
+#new{
+  padding-top: 80px;
 }
 
 
@@ -287,9 +295,7 @@ footer{
   padding-top: 20px;
  }
 
- i{
-  padding: 10px;
- }
+
 span{
   padding: 10px;
 }
@@ -300,4 +306,7 @@ span{
 #play{
   margin-inline-start: -200px;
   padding-top: 20px;
+}
+#fb, #tl, #insta{
+  padding-left: 20px;
 }

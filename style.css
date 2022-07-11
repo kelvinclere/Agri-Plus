@@ -162,10 +162,14 @@ img{
     
 
 }
-h3, hp, h4{
-    margin-inline-start: 80px;
+
+h3, p, h4{
+
     padding-top: -5px;
+    margin-inline-start: 80px;
+  
 }
+
 
 hr{
     border-bottom: 15px solid gray;
@@ -235,3 +239,28 @@ footer{
     color: #ED661F;
     width: 80px;
   }
+
+ form{
+  display: inline-flex;
+  padding-right: 300px;
+  margin-inline-start: 500px;
+  width: 200px;
+  height: 40px;
+  padding-top: 30px;
+
+ }
+
+ #fname{
+  padding-right: 150px;
+ }
+
+ #submit{
+  background: #ED661F;
+  padding-right: 80px;
+  font-weight: bolder;
+  
+ }
+ #footer1, #footer2{
+  text-align: center;
+  margin-inline-start: 420px;
+ }

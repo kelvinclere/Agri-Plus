@@ -7,6 +7,8 @@ html{
 .navbar{
     background-color: black;
     padding: 10px;
+    position: fixed;
+    width: 98%;
 }
 
 .navbar .menu li a{
@@ -54,6 +56,7 @@ html{
     padding: 10px 25px;
     color: white;
     font-weight: bolder;
+  
 
 }
 
@@ -112,6 +115,14 @@ h6 {
     height: 300px;
   }
 
+  #img2{
+    position: absolute;
+    margin-inline-start: 500px;
+    float: right;
+    width: 600px;
+    height: 300px;
+  }
+
   article{
     margin-inline-start: 150px;
     font-size: 20px;
@@ -121,6 +132,11 @@ h6 {
     text-align: center;
     margin-top: 300px;
     
+  }
+
+  #most{
+    padding-top: -60px;
+    padding-top: -60px;
   }
 
   h1{

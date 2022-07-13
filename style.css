@@ -2,13 +2,14 @@
 
 html{
     background-color: white;
+    margin: auto;
 }
 
 .navbar{
     background-color: black;
     padding: 10px;
     position: fixed;
-    width: 98%;
+    width: 97%;
 }
 
 .navbar .menu li a{
@@ -97,7 +98,7 @@ html{
 
 }
 h6 {
-    width: 700px;
+    width: 50%;
     font-size: larger;
     color:black;
     display: flex;
@@ -184,6 +185,11 @@ h3, p, h4{
     padding-top: -10px;
     margin-inline-start: 80px;
   
+}
+
+h5{
+  padding-top: 50px;
+  font-size: 20px;
 }
 
 #exist{
@@ -293,6 +299,7 @@ footer{
  #fb{
   margin-inline-start: -200px;
   padding-top: 20px;
+
  }
 
 
@@ -302,11 +309,15 @@ span{
 #apple{
   margin-inline-start: -200px;
   padding-top: 20px;
+  color: #ED661F;
 }
 #play{
   margin-inline-start: -200px;
   padding-top: 20px;
+  color: #ED661F;
 }
 #fb, #tl, #insta{
   padding-left: 20px;
+
+
 }

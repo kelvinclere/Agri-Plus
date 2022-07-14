@@ -28,7 +28,7 @@ html{
     font-weight: 600;
     color: white;
     margin-left: 50px;
-    font-style: 'inter';
+    font-family: 'Poppins';font-size: 42px;
 
 }
 
@@ -58,6 +58,7 @@ html{
     padding: 10px 25px;
     color: white;
     font-weight: bolder;
+    border-radius: 5px;
   
 
 }
@@ -80,7 +81,7 @@ html{
 .home .home-content .text-1, .text-2, .text-3{
     font-size: 40px;
     font-weight: 550;
-    font-style: 'poppins';
+    font-family: 'Poppins';font-size: 42px;
 }
 
 .home .home-content .text-4, .text-5, .text-6{
@@ -91,6 +92,7 @@ html{
 #btn2{
     background-color: #ED661F;
     padding: 20px 30px;
+    border-radius: 10px;
     margin-top: 20px;
     color: white;
     font-size: 20px;
@@ -124,6 +126,10 @@ h6 {
     float: right;
     width: 600px;
     height: 300px;
+  }
+
+  #header1{
+    margin-top: -180px;
   }
 
 
@@ -306,6 +312,11 @@ footer{
 
 span{
   padding: 10px;
+}
+
+#text1{
+  font-weight: bolder;
+  font-size: 25px;
 }
 #apple{
   margin-inline-start: -200px;

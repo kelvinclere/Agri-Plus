@@ -10,6 +10,7 @@ html{
     padding: 10px;
     position: fixed;
     width: 97%;
+    margin-top: -10px;
 }
 
 .navbar .menu li a{

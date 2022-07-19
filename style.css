@@ -120,6 +120,17 @@ h6 {
     height: 300px;
   }
 
+  #image3{
+    width: 150px;
+    height: 150px;
+    margin-inline-start: -50px;
+    margin-top: -40px;
+  }
+  #image4{
+    margin-top: -190px;
+    margin-inline-start: 100px;
+  }
+
   #img2{
     position: absolute;
     margin-inline-start: 500px;
